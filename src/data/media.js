@@ -1,5 +1,6 @@
 import MOTM from "../assets/images/MOTM.jpeg";
 import goal from "../assets/videos/goal.mp4";
+import setpiece from "../assets/videos/setpiece.mp4";
 
 export const media = [
   {
@@ -12,7 +13,7 @@ export const media = [
   {
     id: 2,
     type: "image",
-    title: "Training Session",
+    title: "Setpiece Session",
     src: "https://images.unsplash.com/photo-1521412644187-c49fa049e84d",
     date: "2025-01-19"
   },
@@ -20,7 +21,7 @@ export const media = [
     id: 3,
     type: "video",
     title: "Match Highlights",
-    src: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    src: setpiece,
     date: "2025-01-20"
   },
   {
