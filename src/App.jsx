@@ -6,6 +6,7 @@ import logo from "./assets/kasacity-logo.png";
 import solmartLogo from "./assets/solmartLogo.png";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import { Analytics } from "@vercel/analytics/react";
 
 
 export default function App() {
@@ -85,6 +86,8 @@ export default function App() {
       <section id="footer">
         <Footer />
       </section>
+
+      <Analytics />
     </div>
   );
   
